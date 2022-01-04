@@ -2,6 +2,8 @@ import styled from 'styled-components';
 
 export const Section = styled.section`
   background: linear-gradient(blue, 10%, pink);
+  /* box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25); */
+  box-shadow: 0 0 10px rgba(155, 79, 128, 1);
 `;
 
 export const Title = styled.h2`

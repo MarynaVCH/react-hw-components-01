@@ -38,14 +38,20 @@ export const Stats = styled.ul`
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 4px;
   list-style: none;
+  background-color: #f3f6f9;
 
   align-content: center;
   margin: 0;
 `;
+
 export const Items = styled.li`
   padding: 15px;
   display: flex;
   flex-direction: column;
+
+  &:not(:last-child) {
+    border-right: 1px solid #cdd1d5;
+  }
 `;
 
 export const Quantity = styled.span`
